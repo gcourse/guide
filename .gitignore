@@ -1,0 +1,8 @@
+node_modules/
+.idea/
+.sass-cache
+logs/
+tmp/
+vendor/
+assets/js/*.js
+assets/css
