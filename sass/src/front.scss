@@ -1,0 +1,36 @@
+.index {
+  header {
+    text-align: center;
+    padding: 25px 0 15px 0;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .gc-logo {
+    max-height: 100px;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    color: #888;
+    font-size: 1.6em;
+    text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff;
+  }
+
+  .main-box {
+    text-align: center;
+  }
+
+  .inner {
+    background-color: #f1f1f1;
+    border: 1px solid #fff;
+    outline: 1px solid #ddd;
+  }
+
+
+  #contents {
+    border-top: 1px solid #fff;
+  }
+
+
+}

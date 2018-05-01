@@ -1,6 +1,39 @@
 body {
   margin: 0;
   color: #444444;
+  background-color: #f9f9f9;
+}
+
+#contents:after {
+  content: '';
+  clear: both;
+}
+
+.index header {
+  text-align: center;
+  padding: 25px 0 15px 0;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #ddd;
+}
+.index .gc-logo {
+  max-height: 100px;
+}
+.index h1 {
+  text-transform: uppercase;
+  color: #888;
+  font-size: 1.6em;
+  text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff;
+}
+.index .main-box {
+  text-align: center;
+}
+.index .inner {
+  background-color: #f1f1f1;
+  border: 1px solid #fff;
+  outline: 1px solid #ddd;
+}
+.index #contents {
+  border-top: 1px solid #fff;
 }
 
 #left-div {
@@ -13,11 +46,6 @@ body {
   display: block;
   padding: 8px 15px 0 15px;
   background-color: #fff;
-}
-
-.gc-logo {
-  max-width: 90%;
-  max-height: 50px;
 }
 
 .sidebar {
@@ -48,7 +76,7 @@ body {
   margin: 0;
   padding: 2px 15px;
   background-color: #f1f1f1;
-  font-weight: 400;
+  font-weight: 200;
   border-bottom: 0.5px solid #fff;
   border-top: 1px solid #ddd;
 }
@@ -57,6 +85,20 @@ body {
   padding: 15px 15px;
 }
 
+@media screen and (min-width: 700px) {
+  .main-box {
+    float: left;
+    width: 50%;
+  }
+
+  #user-manual .inner {
+    margin-right: 15px;
+  }
+
+  #customization .inner {
+    margin-left: 15px;
+  }
+}
 @media screen and (min-width: 800px) {
   #left-div {
     position: fixed;
@@ -65,9 +107,5 @@ body {
     width: 20%;
     height: 100%;
     border-right: 2px solid #f1f1f1;
-  }
-
-  #contents {
-    margin: 0 0 0 20%;
   }
 }
