@@ -1,0 +1,7 @@
+/*! GCourse Guide - v1.0.0
+ * Author: GCourse <>
+ * Copyright (c) 2018;
+ * Licensed: GNU General Public License v2 or later
+ */
+
+body{margin:0;color:#444}#left-div{background-color:#f9f9f9;border-bottom:2px solid #f1f1f1;padding:0}.gc-logo-link{display:block;padding:8px 15px 0;background-color:#fff}.gc-logo{max-width:90%;max-height:50px}.sidebar{margin:0;padding:0 15px;list-style:none;border-top:1px solid #ddd}.sidebar li{display:block;padding:2px 0}.sidebar a{text-decoration:none;padding:4px 0;display:block;border-bottom:1px solid #fff;color:#444}.sub-menu{margin:0 0 0 15px;list-style:none;padding:0}.label{margin:0;padding:2px 15px;background-color:#f1f1f1;font-weight:400;border-bottom:.5px solid #fff;border-top:1px solid #ddd}#contents{padding:15px}@media screen and (min-width:800px){#left-div{position:fixed;top:0;left:0;width:20%;height:100%;border-right:2px solid #f1f1f1}#contents{margin:0 0 0 20%}}

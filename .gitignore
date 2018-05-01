@@ -4,5 +4,3 @@ node_modules/
 logs/
 tmp/
 vendor/
-assets/js/*.js
-assets/css

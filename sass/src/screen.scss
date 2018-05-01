@@ -1,0 +1,16 @@
+@media screen {
+  @media (min-width: 800px) {
+    #left-div {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 20%;
+      height: 100%;
+      border-right: 2px solid #f1f1f1;
+    }
+
+    #contents {
+      margin: 0 0 0 20%;
+    }
+  }
+}
